@@ -1,7 +1,7 @@
 'use client';
 
 const Explore = () => (
-  <section>
+  <section id="explore">
     Explore section
   </section>
 );

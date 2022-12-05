@@ -22,6 +22,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.xPaddings} py-8 relative`}
     >
       <header>

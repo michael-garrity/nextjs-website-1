@@ -12,8 +12,15 @@
 }
 
 body {
-  background: #161E2D;
-  overflow: hidden;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.arrow-down {
+  height: 50px;
+  width: auto;
+  bottom: 10px;
+  position: absolute;
 }
 
 header {
@@ -25,7 +32,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e7e7e7;
+  background-color: none;
+  color: #e7e7e7;
 }
 
 .nav__menu-bar {
@@ -46,7 +54,8 @@ nav {
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: #e7e7e7;
+  background-color: none;
+  z-index: 100;
 }
 
 .nav__menu-list.active {
@@ -57,7 +66,7 @@ nav {
   font-size: 18px; 
   position: relative;
   transition: all 0.2s;
-  color:#161E2D;
+  color:#e7e7e7;
   font-weight: 700;
 }
 
@@ -66,6 +75,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu-list {
+    background: #000;
+    color: #e7e7e7;
+  }
+  .nav__link {
+    color:#e7e7e7;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -90,7 +109,7 @@ nav {
     height: 3px;
     bottom: -10px;
     left: 0;
-    background-color: #161E2D;
+    background-color: #e7e7e7;
     transition: all 0.2s;
   }
   
