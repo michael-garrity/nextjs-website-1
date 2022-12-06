@@ -10,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-black': '#1A232E',
-        'secondary-white': '#c7c7c7',
+        'primary-black': '#000',
+        'secondary-white': '#e7e7e7',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
