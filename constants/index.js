@@ -34,14 +34,14 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    // imgUrl: '/featureImg1.svg',
+    imgUrl: '/mountain-icon.svg',
     title: 'Duis aute irure',
     subtitle:
         'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
   },
   {
-    // imgUrl: '/featureImg2.svg',
-    title: 'Excepteur sint occaecat',
+    imgUrl: '/mountain-icon.svg',
+    title: 'Excepteur sint',
     subtitle:
         'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
