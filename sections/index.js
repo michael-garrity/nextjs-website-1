@@ -6,6 +6,7 @@ import WhatsNew from './WhatsNew';
 import LearnMore from './LearnMore';
 import Articles from './Articles';
 import Feedback from './Feedback';
+import Form from './Form';
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   LearnMore,
   Articles,
   Feedback,
+  Form,
 };

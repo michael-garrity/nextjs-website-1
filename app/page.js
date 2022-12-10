@@ -1,5 +1,5 @@
 import { Navbar, Footer } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Articles, WhatsNew, LearnMore } from '../sections';
+import { About, Explore, Feedback, GetStarted, Hero, Articles, WhatsNew, LearnMore, Form } from '../sections';
 
 const Page = () => (
   <div>
@@ -9,6 +9,7 @@ const Page = () => (
     <Explore />
     <GetStarted />
     <WhatsNew />
+    <Form />
     <LearnMore />
     <Articles />
     <Feedback />

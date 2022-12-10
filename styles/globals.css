@@ -70,6 +70,14 @@ nav {
   font-weight: 700;
 }
 
+#get-started {
+  min-height: 100vh;
+}
+
+#whats-new {
+  min-height: 100vh;
+}
+
 .center {
   min-height: 600px;
   display: flex;
