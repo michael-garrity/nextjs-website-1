@@ -78,6 +78,9 @@ nav {
   min-height: 100vh;
 }
 
+.feedback {
+  min-height: 100vh;
+}
 .center {
   min-height: 600px;
   display: flex;

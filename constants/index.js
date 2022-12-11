@@ -49,19 +49,19 @@ export const newFeatures = [
 
 export const articles = [
   {
-    // imgUrl: '/articles1.png',
+    imgUrl: '/article-img-1.png',
     title: 'Lorem ipsum dolor sit amet',
     subtitle:
         'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    // imgUrl: '/articles2.png',
+    imgUrl: '/article-img-2.png',
     title: 'Labore et Dolore Magna Aliqua',
     subtitle:
         'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
-    // imgUrl: '/articles3.png',
+    imgUrl: '/article-img-3.png',
     title: 'Ullamco Laboris Nisi ut Aliquip ex ea Commodo Consequat',
     subtitle:
         'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',

@@ -44,7 +44,7 @@ export default function Form() {
             variants={fadeIn('right', 'tween', 0.2, 1)}
             className="flex-1 text-gray-700 w-full lg:w-1/2"
           >
-            <h1 className="text-[80px] pb-2 font-bold">
+            <h1 className="lg:text-[80px] md:text-[60px] text-[40px] pb-2 font-bold">
               Contact
             </h1>
             <p className="text-lg w-full">
@@ -130,9 +130,9 @@ export default function Form() {
           </motion.div>
           <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
-            className="w-full h-full lg:w-1/2 flex-col lg:pl-32 mt-12 lg:mt-32"
+            className="w-full h-full lg:w-1/2 flex-col lg:pl-32"
           >
-            <p className="pb-2 font-bold">
+            <p className="pb-2 font-bold mt-12 lg:mt-32">
               Lorem ipsum dolor
             </p>
             <p className="pb-4">
